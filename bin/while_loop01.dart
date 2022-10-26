@@ -1,23 +1,41 @@
-/*
-  Create function func with "a " argument
-  Return the number of odd numbers up to A.
-*/
-// int func(int a) {
-//   int a = 0;
-//   while (a < 10) {
-//     a+=2;
-//   }
-//   return a;
-// }
-// void main() {
-//   print(func(10));
-// }
-
-void main(){
-  int i=1;
-  while (i<2323){
-    print(i);
-    i=i+2;
+/*                                              
+  Create function func with "a " argum          
+  Return the number of odd numbers up           
+*/                                              
+int func(int a) {
+  int s = 0;
+  int q = 0;
+  while (a > q) {
+    q = q + 1;
+    if (q % 2 == 1) {
+      s += 1;
+    }
+    // a = a - 1;
 
   }
+  return s;
 }
+
+void main() {
+  print(func(5));
+}                                               
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+// void main(){                                 
+//   int i=0;                                   
+//   while (i<10){                              
+//     print(i);                                
+//     i=i+2;                                   
+                                                
+//   }                                          
+// }                                            
