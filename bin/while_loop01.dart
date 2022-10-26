@@ -6,25 +6,12 @@
 //   int a = 0;
 //   while (a < 10) {
 //     a+=2;
-  
 //   }
 //   return a;
 // }
-
 // void main() {
 //   print(func(10));
 // }
-
-
-
-
-
-
-
-
-
-
-
 
 void main(){
   int i=1;
