@@ -1,19 +1,20 @@
-/*                                                            
-  Create function func with "a " argument                     
-  Return the number of even numbers up to "a".                
+/*                                                   
+  Create function func with "a " argument            
+  Return the number of even numbers up to "a".       
 */
+
 int func(int a) {
-  int t = 0;
-  int c = 0;
-  while (a > c) {
-    c = c + 1;
-    if (c % 2 == 0) {
-      t += 1;
+  int s = 0;
+  int q = 0;
+  while (a > q) {
+    q = q + 1;
+    if (q % 2 == 1) {
+      s += 1;
     }
     // a = a - 1;
 
   }
-  return t;
+  return s;
 }
 
 void main() {
