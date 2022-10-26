@@ -3,17 +3,17 @@
   Return the number of odd numbers up           
 */                                              
 int func(int a) {
-  int s = 0;
-  int q = 0;
-  while (a > q) {
-    q = q + 1;
-    if (q % 2 == 1) {
-      s += 1;
+  int t = 0;
+  int c = 0;
+  while (a > c) {
+    c = c + 1;
+    if (c % 2 == 1) {
+      t += 1;
     }
     // a = a - 1;
 
   }
-  return s;
+  return t;
 }
 
 void main() {
