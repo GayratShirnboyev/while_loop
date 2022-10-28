@@ -12,11 +12,12 @@ String func(int a) {
     i++;
     if (a % 2 == 0) {
       count++;
+     
     }
   }
   String ans = '';
-  if (count == 2) {
-    ans = "tub son";
+  if (count == 0) {
+    ans = "tub son ";
   } else {
     ans = "tub son emas";
   }
