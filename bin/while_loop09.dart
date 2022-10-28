@@ -5,9 +5,9 @@
   
 */
 String func(int a) {
-  int b = 0;
+  int b = 1;
   String v = '';
-  while (a > b) {
+  while (a >= b) {
     if (b % 2 == 0) {
       v += b.toString();
       
